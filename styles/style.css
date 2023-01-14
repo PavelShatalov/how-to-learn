@@ -206,7 +206,7 @@ font-weight: 600;
   padding-top: 100px;
   height: 100vh;
   background: no-repeat url('../images/feynman.png');
-  background-size: 867px 637px ;
+  background-size: 867px 637px;
   background-position: left bottom;
   background-color: #f2f2f2;
 }
@@ -247,7 +247,7 @@ font-weight: 600;
   background-color: #1f1f1f;
   padding-top: 90px;
   z-index: -2;
-  overflow: hidden
+  overflow: hidden;
 }
 
 .section-title_theme_dark {
@@ -273,12 +273,7 @@ font-weight: 600;
   font-weight: normal;
 }
 
-/* .table_theme_dark{
-} */
-.table__cell_theme_dark {
-  width: 200px;
-  margin-top: 80px;
-}
+
 
 .table__heading_theme_dark {
   line-height: 1.15;
