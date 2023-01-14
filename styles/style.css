@@ -14,7 +14,6 @@
   padding-top: 0;
   padding-bottom: 0;
  }
-
 .link{
   color: #2f80ed;
   text-decoration: none;
@@ -34,7 +33,6 @@
   z-index: 0;
   /* margin-bottom: 100px; */
 }
-
 .logo{
   height: 32px;
   width: 228px;
@@ -76,7 +74,6 @@
   height: 608px;
   width: 765px;
 }
-
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
@@ -87,8 +84,6 @@
   right: 0;
   z-index: -1;
 }
-
-
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
@@ -96,19 +91,15 @@
   margin-right: 0;
   margin-top: 80px;
 }
-
-
 .description{
   position: relative;
   margin-top: 100px;
   margin-bottom: 100px;
   flex-direction: row-reverse;
-  
 }
-
 .two-columns{
   display:flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   width:80%; 
   position: relative; 
   margin-left:auto;
@@ -139,12 +130,10 @@
   font-size: 24px;
   font-weight: 600;
 }
-
 .digits{
   position: relative;
   margin-bottom: 100px;
 }
-
 .section-title{
 width: 60%;
 margin-bottom: 20px;
@@ -187,7 +176,6 @@ font-weight: 600;
   font-size: 18px;
   font-weight: normal;
 }
-
 .feynman{
   position: relative;
   padding-top: 100px; 
@@ -197,7 +185,6 @@ font-weight: 600;
   background-position:left bottom;
   background-color: #f2f2f2;
 }
-
 .feynman__title{
   width: 648px;
   margin-top: 0;
@@ -217,7 +204,6 @@ font-weight: 600;
   font-size: 36px;
   font-weight: normal;
 }
-
 .feynman__link{
   position:absolute;
   top: 50%;
@@ -226,9 +212,6 @@ font-weight: 600;
   font-size: 36px;
   font-weight: normal;
 }
-
-
-
 .kaufman{
   position: relative;
   padding-bottom: 90px;
@@ -237,7 +220,6 @@ font-weight: 600;
   z-index:-2;
   overflow: hidden
 }
-
 .section-title_theme_dark{
   color:white;
   width: 60%;
@@ -248,7 +230,6 @@ font-weight: 600;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
-
 }
 .section-subtitle_theme_dark{
   color:white;
@@ -260,8 +241,8 @@ font-weight: 600;
   font-size: 24px;
   font-weight: normal;
 }
-.table_theme_dark{
-}
+/* .table_theme_dark{
+} */
 .table__cell_theme_dark{
   width: 200px;
   margin-top: 80px;
@@ -277,7 +258,6 @@ font-weight: 600;
   font-size: 18px;
   font-weight: normal;
 }
-
 .kaufman__triagle{
   background-image:url(../images/kaufman-triangle.svg);
   width:877px;
@@ -288,8 +268,6 @@ font-weight: 600;
   top:0;
   z-index: -1;
 }
-
-
 .footer{
   position: relative;
   background-color: #1f1f1f;
@@ -316,7 +294,6 @@ font-weight: 600;
   
   flex-basis: 711px;
 }
-
 .logo_place_footer{
   
   background-image: url('../images/logo_place_footer.svg');
@@ -330,11 +307,9 @@ font-weight: 600;
   font-weight: normal;
   
 }
-
 /* .footer__column_content_social{
   
 }
-
 .footer__column_content_info{
   
 } */
@@ -362,7 +337,6 @@ font-weight: 600;
   font-size: 18px;
   font-weight: normal;
 }
-
 .footer__socioal-icon{
   width: 16px;
   height: 16px;
