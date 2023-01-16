@@ -68,6 +68,7 @@
   width: 388px;
   font-weight: normal;
   z-index: 1;
+  margin: 0;
 }
 
 .header__link {
@@ -120,6 +121,7 @@
   font-size: 18px;
   color: #2f80ed;
   font-weight: normal;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -129,6 +131,7 @@
 
 .two-columns__paragraph {
   margin-bottom: 30px;
+  margin-top: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -158,12 +161,15 @@ text-align: center;
 line-height: 1.15;
 font-size: 60px;
 font-weight: 600;
+margin-top: 0;
 }
 
 .section-subtitle {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
   text-align: center;
   line-height: 34px;
   font-size: 24px;
@@ -174,6 +180,9 @@ font-weight: 600;
   width: 1100px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -183,13 +192,12 @@ font-weight: 600;
 .table__cell {
   margin-top: 60px;
   width: 250px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .table__heading {
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
+  margin: 0;
 }
 
 .table__text {
@@ -197,6 +205,7 @@ font-weight: 600;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin-bottom: 0;
 }
 
 .feynman {
@@ -207,11 +216,13 @@ font-weight: 600;
   background-size: 867px 637px;
   background-position: left bottom;
   background-color: #f2f2f2;
+  box-sizing: border-box;
 }
 
 .feynman__title {
   width: 648px;
   margin-top: 0;
+  margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -225,6 +236,7 @@ font-weight: 600;
   margin-right: auto; */
   text-align: center;
   margin-top: 70px;
+  margin-bottom: 0;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -256,26 +268,10 @@ font-weight: 600;
 
 .section-title_theme_dark {
   color:white;
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  margin-bottom: 20px;
-  margin-top: 0;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
 }
 
 .section-subtitle_theme_dark {
   color: white;
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
 }
 
 .table__cell_theme_dark {
@@ -360,6 +356,7 @@ font-weight: 600;
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .footer__column-links {
