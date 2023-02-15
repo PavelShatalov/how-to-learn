@@ -1,0 +1,5 @@
+.description {
+  position: relative;
+  margin-top: 100px;
+  flex-direction: row-reverse;
+}
