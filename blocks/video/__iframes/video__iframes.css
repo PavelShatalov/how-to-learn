@@ -5,7 +5,7 @@
   justify-content: center;
   margin-top: 50px;
   height: 316px;
-  width: calc(515px*2+20px);
+  width: 1050px;
   gap: 20px;
   overflow:hidden;
 }
